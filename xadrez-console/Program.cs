@@ -18,7 +18,7 @@ namespace xadrez_console
                     {
                         Console.Clear();
                         Tela.imprimirPartida(partida);
-                      ;
+                      
 
 
                         Console.WriteLine();
@@ -47,6 +47,8 @@ namespace xadrez_console
                         Console.ReadLine();
                     }
                 }
+                Console.Clear();
+                Tela.imprimirPartida(partida);
 
             }
             catch (TabuleiroException e)
